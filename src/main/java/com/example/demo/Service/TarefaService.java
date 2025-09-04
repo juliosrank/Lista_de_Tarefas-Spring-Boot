@@ -12,8 +12,6 @@ public class TarefaService {
 
     private final TarefaRepository repo;
 
-    //Criar método privado marcar Como Concluida (Tarefa tarefa) para clareza.
-
     public List<Tarefa> listarTodas(){
         return repo.listaDeTarefas;
     }
